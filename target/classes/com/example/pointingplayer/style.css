@@ -1,0 +1,9 @@
+.slider {
+    -track-color: -fx-control-inner-background;
+}
+.slider .track {
+      -fx-background-color:
+          -fx-shadow-highlight-color,
+          linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+          -track-color;
+}
